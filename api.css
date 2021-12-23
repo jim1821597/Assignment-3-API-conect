@@ -1,0 +1,14 @@
+.container {
+    padding: 5px;
+    border: 1px solid lightcoral;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    display: grid;
+
+}
+
+.outer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+}
